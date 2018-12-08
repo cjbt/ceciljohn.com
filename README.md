@@ -3,4 +3,4 @@
 Portfolio website
 
 ## Deployed
-ceciljohn.com
+https://ceciljohn.com
