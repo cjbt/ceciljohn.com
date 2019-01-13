@@ -31,36 +31,36 @@ const Layout = ({ children }) => (
           {children}
 
           <footer id="footer">
-            <div class="inner">
-              <ul class="icons">
+            <div className="inner">
+              <ul className="icons">
                 <li>
-                  <a href="#" class="icon fa-twitter">
-                    <span class="label">Twitter</span>
+                  <a href="#" className="icon fa-twitter">
+                    <span className="label">Twitter</span>
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/cjbt" class="icon fa-github">
-                    <span class="label">Github</span>
+                  <a href="https://github.com/cjbt" className="icon fa-github">
+                    <span className="label">Github</span>
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://www.linkedin.com/in/cjtantay/"
-                    class="icon fa-linkedin"
+                    className="icon fa-linkedin"
                   >
-                    <span class="label">LinkedIn</span>
+                    <span className="label">LinkedIn</span>
                   </a>
                 </li>
                 <li>
                   <a
                     href="mailto:cjbtantay@gmail.com"
-                    class="icon fa-envelope-o"
+                    className="icon fa-envelope-o"
                   >
-                    <span class="label">Email</span>
+                    <span className="label">Email</span>
                   </a>
                 </li>
               </ul>
-              <ul class="copyright">
+              <ul className="copyright">
                 <li>&copy; Cecil John Tantay</li>
               </ul>
             </div>
