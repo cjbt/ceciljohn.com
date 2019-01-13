@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import './layout.scss'
+import './sass/main.scss'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -28,10 +29,41 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+
+          <footer id="footer">
+            <div class="inner">
+              <ul class="icons">
+                <li>
+                  <a href="#" class="icon fa-twitter">
+                    <span class="label">Twitter</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/cjbt" class="icon fa-github">
+                    <span class="label">Github</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/cjtantay/"
+                    class="icon fa-linkedin"
+                  >
+                    <span class="label">LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:cjbtantay@gmail.com"
+                    class="icon fa-envelope-o"
+                  >
+                    <span class="label">Email</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="copyright">
+                <li>&copy; Cecil John Tantay</li>
+              </ul>
+            </div>
           </footer>
         </div>
       </>
