@@ -17,7 +17,7 @@ $size-header-width: 35%;
 $size-header-pad: 4em;
 
 footer {
-	display: none;
+  display: none;
 }
 
 // Breakpoints.
@@ -1251,13 +1251,13 @@ input[type='button'],
   .icons {
     margin: (_size(element-margin) * 0.5) 0 0 0;
 
-    a {
-      color: _palette(accent2, fg-light);
-    }
+    // a {
+    //   color: _palette(accent2, fg-light);
+    // }
   }
 
   .copyright {
-    color: _palette(accent2, fg-light);
+    // color: _palette(accent2, fg-light);
     font-size: 0.8em;
     list-style: none;
     margin: (_size(element-margin) * 0.5) 0 0 0;
