@@ -292,17 +292,17 @@ h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1.5em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.5em;
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.35em;
   line-height: 1.5em;
 }
 
@@ -1196,8 +1196,7 @@ input[type="button"],
   @include vendor("justify-content", "space-between");
   background-color: _palette(accent2, bg);
   background-attachment: scroll, scroll;
-  background-image: url("images/overlay.png"),
-    url("../../images/caleb-george-574729-unsplash.jpg");
+  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
